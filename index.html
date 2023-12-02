@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfoilo</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./mediaqueries.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./header.css">
+
+    <link rel="stylesheet" href="./mediaqueries.css" />
     <style>
-        .typed-cursor {
+  .typed-cursor {
     background:-webkit-linear-gradient(white, #38495a);
     width: 0.1rem; 
     height: 1.5rem;
@@ -16,15 +18,37 @@
     margin-left: 6px;
 }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <div class="header_container">
+      
+        <h2 class="header_logo"><span>Han Paing Htoo</span></h2>
+        
+        <nav class="site-nav">
+            <ul>
+              <li><a href=""><i class="fa fa-info site-nav--icon"></i>About</a></li>
+              <li><a href=""><i class="fa fa-pencil site-nav--icon"></i>Experience</a></li>
+              <li><a href=""><i class="fa fa-usd site-nav--icon"></i>Projects</a></li>
+              <li><a href=""><i class="fa fa-envelope site-nav--icon"></i>Contact</a></li>
+            </ul> 
+        </nav>
+        <div class="header_menu_toggle">
+          <div class="header_hamburger"></div>
+        </div>
+        
+      </div>
+      
+  </header>
     <div style="height: 100vh;position:fixed;top:0;left: 0;right: 0;bottom: 0;z-index: -10;">
       <div id="stars"></div>
       <div id="stars2"></div>
       <div id="stars3"></div>
+      
     </div>
+
     <div class="scrollable-container">
-      <nav id="desktop-nav">
+      <!-- <nav id="desktop-nav">
         <div>
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
@@ -49,7 +73,7 @@
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
           </div>
         </div>
-      </nav>
+      </nav> -->
       <section id="profile">
        <div class="section__pic-container">
           <img src="./assets/a.jpg" alt="John Doe profile picture" class="about-pic" />
@@ -372,13 +396,16 @@
             </ul>
           </div>
         </nav>
-        <p>It's No More Sorrow</p>
+        <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
       </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./header.js"></script>
+
+    <script src="./index.js"></script>
   </body>
-<script src="./index.js"></script>
-<script>
+  <script>
     var typed = new Typed('#typed', {
     strings: ['Web Application Developer', 'Experience in 1 year and 2 months'],
     typeSpeed: 35,
