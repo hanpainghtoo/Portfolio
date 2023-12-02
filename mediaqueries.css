@@ -62,6 +62,10 @@
 
 @media screen and (max-width: 600px) {
 
+  .site-nav ul{
+    background: #131b25;
+
+  }
   #contact,
   footer {
     height: 40vh;

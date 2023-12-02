@@ -64,12 +64,11 @@ header::after {
     margin: 0;
     padding: 0;
     list-style: none;
-    background: #131b25;
-
+    /* background: #131b25; */
 }
 
 .site-nav li {
-    border-bottom: 1px solid #c2c7cc;
+    border-bottom: 1px solid #ffffff;
 
 }
 
@@ -78,7 +77,7 @@ header::after {
 }
 
 .site-nav a {
-    color: #ced0d2;
+    color: #ffffff;
     display: block;
     padding: 2em 4em 2em 1.5em;
     text-transform: uppercase;
@@ -87,8 +86,10 @@ header::after {
 
 .site-nav a:hover,
 .site-nav a:focus {
-    background: #E4B363;
-    color: #c2c7cc;
+    background: #192432;
+    color: white;
+    transition: color 0.3s ease; /* Smooth transition effect */
+
 }
 
 .site-nav--icon {
