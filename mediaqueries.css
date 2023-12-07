@@ -8,6 +8,10 @@
     flex-wrap: wrap;
   }
 
+  #about {
+    margin-top: 5rem;
+  }
+
   #contact,
   #projects {
     height: fit-content;
@@ -55,6 +59,7 @@
   .about-containers {
     margin-top: 0;
   }
+
   #name {
     width: auto !important;
   }
@@ -62,10 +67,11 @@
 
 @media screen and (max-width: 600px) {
 
-  .site-nav ul{
+  .site-nav ul {
     background: #131b25;
 
   }
+
   #contact,
   footer {
     height: 40vh;
