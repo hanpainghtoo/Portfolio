@@ -1006,7 +1006,7 @@ article .icon {
 
 .contact-info-upper-container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -1025,15 +1025,17 @@ article .icon {
 
 .contact-info-container p {
   font-size: larger;
+  margin: 0.5rem;
+
 }
 
-.contact-icon {
+/* .contact-icon {
   cursor: default;
 }
 
 .email-icon {
   height: 2.5rem;
-}
+} */
 
 /* FOOTER SECTION */
 
