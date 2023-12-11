@@ -1028,7 +1028,13 @@ article .icon {
   margin: 0.5rem;
 
 }
-
+.typed-cursor {
+  background:-webkit-linear-gradient(white, #38495a);
+  width: 0.1rem; 
+  height: 1.5rem;
+  display: inline-block;
+  margin-left: 6px;
+}
 /* .contact-icon {
   cursor: default;
 }

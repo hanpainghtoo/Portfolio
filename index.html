@@ -14,15 +14,6 @@
 
     <link rel="stylesheet" href="./mediaqueries.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-  .typed-cursor {
-    background:-webkit-linear-gradient(white, #38495a);
-    width: 0.1rem; 
-    height: 1.5rem;
-    display: inline-block;
-    margin-left: 6px;
-}
-    </style>
   </head>
   <body>
     <header>
@@ -129,6 +120,15 @@
           </div> -->
           <div class="about-details-container">
             <div class="about-containers">
+              <div class="text-container">
+                <p class="section__text__p1">
+                  <div class="text-container">
+                    <p class="section__text__p1" style="padding: 20px;">
+                     As a dedicated backend developing with in-depth MySQL knowledge, seamlessly transitioning from 7-months on-job-training at Rayhub Academy to a Junior Web Application Developer role with 1 year and 2 months of hands-on experience.
+                    </p>
+                  </div>  
+                </p>
+              </div>
               <div class="details-container">
                 <img
                   src="./assets/experience.png"
@@ -148,16 +148,7 @@
                 <p>Diploma in Information Technology<br /></p>
               </div>
             </div>
-            <div class="text-container">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                reprehenderit et laborum, rem, dolore eum quod voluptate
-                exercitationem nobis, nihil esse debitis maxime facere minus sint
-                delectus velit in eos quo officiis explicabo deleniti dignissimos.
-                Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-                reiciendis ea magnam? Nulla, impedit fuga!
-              </p>
-            </div>
+
           </div>
         </div>
         <img
@@ -360,7 +351,7 @@
             <div class="details-container color-container">
               <div class="article-container">
                 <img
-                  src="./assets/project-3.png"
+                  src="./assets/g6pd.png"
                   alt="Project 3"
                   class="project-img"
                 />
@@ -384,7 +375,7 @@
             <div class="details-container color-container">
               <div class="article-container">
                 <img
-                  src="./assets/mega music.png"
+                  src="./assets/clinic hub.png"
                   alt="Project 1"
                   class="project-img"
                 />
@@ -408,7 +399,7 @@
             <div class="details-container color-container">
               <div class="article-container">
                 <img
-                  src="./assets/mega music.png"
+                  src="./assets/health care.jpg"
                   alt="Project 1"
                   class="project-img"
                 />
@@ -539,44 +530,6 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="./header.js"></script>
-    <script src="./index.js"></script>
+    <script src="./index.js"></script>  
   </body>
-  <script>
-    var typed = new Typed('#typed', {
-    strings: ['Web Application Developer', 'Experience in 1+ year'],
-    typeSpeed: 35,
-    startDelay: 10,
-    backDelay: 500,
-    backSpeed: 35,
-    // fadeOut: true,
-    loop: true,
-    loopCount: Infinity,
-    // showCursor: true,
-    // smartBackspace: true,
-    // cursorChar: '...'
-  //   showCursor: true,
-  // cursorChar: '|',
-  // autoInsertCss: true,
-
-});
-    const text = document.querySelector(".auto-text");
-    const textLoad = ()=>{
-        setTimeout(()=>{
-            text.textContent = "Junior Web Application Developer"
-        }, 0);
-        setTimeout(()=>{
-            text.textContent = "Experience in 1 year & 2 months"
-        }, 5000);
-        // setTimeout(()=>{
-        //     text.textContent = "Youtuber"
-        // }, 8000);
-    }
-    textLoad();
-    // setInterval(textLoad, 12000)
-    setInterval(textLoad, 10000);
-    document.getElementById('spanHeader').addEventListener('click', function() {
-  // Trigger a click on the link with id "profileLink"
-  document.getElementById('profileHerf').click();
-});
-  </script>
 </html>
