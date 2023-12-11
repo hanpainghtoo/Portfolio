@@ -43,6 +43,7 @@
       
     </div>
     <div class="scrollable-container">
+      <p id="demo"></p>
       <section id="profile" style="margin-top: 30px;margin-bottom: 30px;">
        <div class="section__pic-container">
           <img src="./assets/a.jpg" alt="John Doe profile picture" class="about-pic" />
@@ -502,5 +503,12 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="./header.js"></script>
     <script src="./index.js"></script>  
+    <script>
+      var w = window.innerWidth;
+var h = window.innerHeight;
+
+var x = document.getElementById("demo");
+x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
+    </script>
   </body>
 </html>
