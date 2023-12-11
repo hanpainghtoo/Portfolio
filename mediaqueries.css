@@ -142,10 +142,12 @@
   .title {
     font-size: 2rem;
   }
-#aboutMe{
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
+
+  #aboutMe {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .text-container {
     text-align: justify;
   }
