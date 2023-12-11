@@ -43,7 +43,6 @@
       
     </div>
     <div class="scrollable-container">
-      <p id="demo"></p>
       <section id="profile" style="margin-top: 30px;margin-bottom: 30px;">
        <div class="section__pic-container">
           <img src="./assets/a.jpg" alt="John Doe profile picture" class="about-pic" />
@@ -190,6 +189,28 @@
                     class="icon"
                   />
                   <div>
+                    <h3>jQuery</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>EJS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
                     <h3>React JS</h3>
                     <p>Basic</p>
                   </div>
@@ -271,19 +292,22 @@
         <h1 class="title">Projects</h1>
         <div class="experience-details-container">
           <div class="about-containers">
+            
             <div class="details-container color-container">
               <div class="article-container">
                 <img
-                  src="./assets/mega music.png"
+                  src="./assets/clinic hub.png"
                   alt="Project 1"
                   class="project-img"
+                  style="border: 0.5px solid rgb(179, 179, 179);"
+
                 />
               </div>
-              <h2 class="experience-sub-title project-title">Mega Music</h2>
+              <h2 class="experience-sub-title project-title">Clinic Hub</h2>
               <div class="btn-container">
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="location.href='#'"
+                  onclick="window.open('./clinic_hub_detail.html', '_blank')"
                 >
                   Detail
                 </button>
@@ -295,6 +319,30 @@
                 </button>
               </div>
             </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/g6pd.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">G6PD</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Detail
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Unreleased
+                </button>
+              </div>
+            </div>
+            
             <div class="details-container color-container">
               <div class="article-container">
                 <img
@@ -323,36 +371,12 @@
             <div class="details-container color-container">
               <div class="article-container">
                 <img
-                  src="./assets/g6pd.png"
-                  alt="Project 3"
-                  class="project-img"
-                />
-              </div>
-              <h2 class="experience-sub-title project-title">G6PD</h2>
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/'"
-                >
-                  Github
-                </button>
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/'"
-                >
-                  Live Demo
-                </button>
-              </div>
-            </div>
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="./assets/clinic hub.png"
+                  src="./assets/mega music.png"
                   alt="Project 1"
                   class="project-img"
                 />
               </div>
-              <h2 class="experience-sub-title project-title">Clinic Hub</h2>
+              <h2 class="experience-sub-title project-title">Mega Music</h2>
               <div class="btn-container">
                 <button
                   class="btn btn-color-2 project-btn"
@@ -374,6 +398,7 @@
                   src="./assets/health care.jpg"
                   alt="Project 1"
                   class="project-img"
+                  style="border: 0.5px solid rgb(179, 179, 179);"
                 />
               </div>
               <h2 class="experience-sub-title project-title">Health Care</h2>
@@ -503,12 +528,5 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="./header.js"></script>
     <script src="./index.js"></script>  
-    <script>
-      var w = window.innerWidth;
-var h = window.innerHeight;
-
-var x = document.getElementById("demo");
-x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
-    </script>
   </body>
 </html>
